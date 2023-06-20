@@ -65,6 +65,11 @@ nav.nav li {
     list-style: none;
 }
 
+.lien {
+    list-style: none;
+    color: black;
+}
+
 /* service */
 
 .services {
@@ -86,12 +91,13 @@ nav.nav li {
     font-size: 50px;
 }
 
-.enLigne-icon {
+.contact-icon {
+    margin: 25px;
     font-size: 50px;
-    width: 250px;
+    width: 200px;
 }
 
-.click-icon {
+.info-icon {
     margin: 25px;
     font-size: 50px;
     width: 200px;
