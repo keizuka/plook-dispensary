@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+* {
+    
+}
+
+body {
+    margin: auto;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 100px;
+    /* height: 18vh; */
+    
+}
+
+section.top-page {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-color: white;
+    height: 94.7vh;
+    padding: 25px;
+}
+
+/* page de bienvenue (landing page) */
+
+.landing-page {
+    padding: 90px 10px;
+}
+
+.big-title {
+    color: white;
+    font-size: 80px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-weight: 100;
+}
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 30px;
+}
+
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 500px;
+    margin-left: 50px;
+}
+
+nav.nav li {
+    color: white;
+    list-style: none;
+}
+
+/* service */
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin: 30px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.magasin-icon {
+    margin: 10px;
+    font-size: 50px;
+}
+
+.enLigne-icon {
+    font-size: 50px;
+    width: 250px;
+}
+
+.click-icon {
+    margin: 25px;
+    font-size: 50px;
+    width: 200px;
+}
+
+.service-details {
+    margin: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+/*  best sells */
+
+.section-title {
+    font-size: 50px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 8px;
+    bottom: 0;
+}
+
+.best-items {
+    margin: 50px;
+}
+
+.best-sells {
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.weedbox {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-evenly;
+}
+
+.no-grid {
+    min-width: 200px;
+    height: 400px;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.weed1 {
+    background-image: url(../images/runtz\ muffin.jpg);
+}
+
+.weed2 {
+    background-image: url(../images/gouda\ berry.jpg);
+}
+
+.weed3 {
+    background-image: url(../images/haze\ berry.jpg);
+}
+
+.weed4 {
+    background-image: url(../images/mac\ n\ cheese.jpg);
+}
+
+.weed-details {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+}
+
+.weed-name {
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+.weed-thc {
+    color: green;
+    font-weight: 800;
+    line-height: 3px;
+}
+
+.weed-info {
+    color: purple;
+    font-weight: 800;
+    line-height: 3px;
+}
+
+.weed-effect {
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 3px;
+    display: flex;
+    margin-left: 250px;
+}
+
+
+
+
+
+
+
+
+/*  pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+}
