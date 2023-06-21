@@ -109,19 +109,27 @@ nav.nav li {
 }
 
 .weed1 {
-    background-image: url(../images/runtz\ muffin.jpg);
+    background-image: url(../images/oil-natural.jpg);
 }
 
 .weed2 {
-    background-image: url(../images/gouda\ berry.jpg);
+    background-image: url(../images/oil-chamohoney.jpg);
 }
 
 .weed3 {
-    background-image: url(../images/haze\ berry.jpg);
+    background-image: url(../images/diip-caps.jpg);
 }
 
 .weed4 {
-    background-image: url(../images/mac\ n\ cheese.jpg);
+    background-image: url(../images/oil-natural-small.jpg);
+}
+
+.weed5 {
+    background-image: url(../images/oil-chamohoney-small.jpg);
+}
+
+.weed6 {
+    background-image: url(../images/oil-small.jpg);
 }
 
 .weed-details {

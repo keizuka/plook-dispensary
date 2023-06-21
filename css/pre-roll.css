@@ -109,19 +109,23 @@ nav.nav li {
 }
 
 .weed1 {
-    background-image: url(../images/runtz\ muffin.jpg);
+    background-image: url(../images/dolato.jpg);
 }
 
 .weed2 {
-    background-image: url(../images/gouda\ berry.jpg);
+    background-image: url(../images/lemon-banana-mint.jpg);
 }
 
 .weed3 {
-    background-image: url(../images/haze\ berry.jpg);
+    background-image: url(../images/orange-octane.jpg);
 }
 
 .weed4 {
-    background-image: url(../images/mac\ n\ cheese.jpg);
+    background-image: url(../images/orange-octane.jpg);
+}
+
+.weed5 {
+    background-image: url(../images/purple-pineapple.jpg);
 }
 
 .weed-details {

@@ -109,19 +109,31 @@ nav.nav li {
 }
 
 .weed1 {
-    background-image: url(../images/runtz\ muffin.jpg);
+    background-image: url(../images/grenn-paper.jpg);
 }
 
 .weed2 {
-    background-image: url(../images/gouda\ berry.jpg);
+    background-image: url(../images/pink-paper.jpg);
 }
 
 .weed3 {
-    background-image: url(../images/haze\ berry.jpg);
+    background-image: url(../images/raw-small.jpg);
 }
 
 .weed4 {
-    background-image: url(../images/mac\ n\ cheese.jpg);
+    background-image: url(../images/raw-small-tips.jpg);
+}
+
+.weed5 {
+    background-image: url(../images/tips.jpg);
+}
+
+.weed6 {
+    background-image: url(../images/raw-slim.jpg);
+}
+
+.weed7 {
+    background-image: url(../images/juicy.jpg);
 }
 
 .weed-details {

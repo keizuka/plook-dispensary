@@ -124,6 +124,22 @@ nav.nav li {
     background-image: url(../images/mac\ n\ cheese.jpg);
 }
 
+.weed5 {
+    background-image: url(../images/power-flower.jpg);
+}
+
+.weed6 {
+    background-image: url(../images/royal-runtz.jpg);
+}
+
+.weed7 {
+    background-image: url(../images/girl-scout-gelato.jpg);
+}
+
+.weed8 {
+    background-image: url(../images/nothern-light.jpg);
+}
+
 .weed-details {
     position: absolute;
     width: 100%;
