@@ -103,7 +103,7 @@ nav.nav li {
 
 .no-grid {
     min-width: 200px;
-    height: 400px;
+    height: 600px;
     justify-content: space-evenly;
     flex: 1;
 }

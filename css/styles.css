@@ -17,7 +17,7 @@ header.header {
 }
 
 header.header img {
-    width: 100px;
+    width: 200px;
     /* height: 18vh; */
     
 }
@@ -29,6 +29,7 @@ section.top-page {
     height: 94.7vh;
     padding: 25px;
 }
+
 
 /* page de bienvenue (landing page) */
 
@@ -52,12 +53,14 @@ section.top-page {
 
 /* menu de navigation */
 
+
 nav.nav {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    width: 500px;
+    width: 700px;
     margin-left: 50px;
+    margin-bottom: 180px;
 }
 
 nav.nav li {
