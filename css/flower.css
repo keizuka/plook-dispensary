@@ -85,15 +85,6 @@ nav.nav li {
     bottom: 0;
 }
 
-.flower {
-    margin: 50px;
-}
-
-.best-sells {
-    min-height: 200px;
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .weedbox {
     position: relative;
@@ -102,43 +93,47 @@ nav.nav li {
     justify-content: space-evenly;
 }
 
-.no-grid {
-    min-width: 200px;
-    height: 400px;
-    justify-content: space-evenly;
-    flex: 1;
+.all-flower {
+    margin: 100px;
 }
 
-.weed1 {
+
+.plant-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 600px);
+}
+
+.plant-grid1 {
     background-image: url(../images/runtz\ muffin.jpg);
     
 }
 
-.weed2 {
+.plant-grid2 {
     background-image: url(../images/gouda\ berry.jpg);
 }
 
-.weed3 {
+.plant-grid3 {
     background-image: url(../images/haze\ berry.jpg);
 }
 
-.weed4 {
+.plant-grid4 {
     background-image: url(../images/mac\ n\ cheese.jpg);
 }
 
-.weed5 {
+.plant-grid5 {
     background-image: url(../images/power-flower.jpg);
 }
 
-.weed6 {
+.plant-grid6 {
     background-image: url(../images/royal-runtz.jpg);
 }
 
-.weed7 {
+.plant-grid7 {
     background-image: url(../images/girl-scout-gelato.jpg);
 }
 
-.weed8 {
+.plant-grid8 {
     background-image: url(../images/nothern-light.jpg);
 }
 
@@ -175,13 +170,6 @@ nav.nav li {
     font-weight: 800;
     line-height: 3px;
 }
-
-
-
-
-
-
-
 
 /*  pied de page */
 

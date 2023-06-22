@@ -89,10 +89,10 @@ nav.nav li {
     margin: 50px;
 }
 
-.best-sells {
-    min-height: 200px;
-    display: flex;
-    flex-wrap: wrap;
+.pre-roll-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 400px);
 }
 
 .weedbox {
@@ -102,31 +102,36 @@ nav.nav li {
     justify-content: space-evenly;
 }
 
-.no-grid {
-    min-width: 200px;
-    height: 600px;
-    justify-content: space-evenly;
-    flex: 1;
-}
 
-.weed1 {
+.pre-roll-grid1 {
     background-image: url(../images/dolato.jpg);
+    grid-column: 1/2;
+    grid-row: 1/3;
 }
 
-.weed2 {
+.pre-roll-grid2 {
     background-image: url(../images/lemon-banana-mint.jpg);
+    grid-column: 2/3;
+    grid-row: 1/3;
 }
 
-.weed3 {
+.pre-roll-grid3 {
     background-image: url(../images/orange-octane.jpg);
+    grid-column: 3/4;
+    grid-row: 1/3;
 }
 
-.weed4 {
-    background-image: url(../images/orange-octane.jpg);
+.pre-roll-grid4 {
+    background-image: url(../images/orange-cherry.jpg);
+    grid-column: 4/5;
+    grid-row: 1/3;
 }
 
-.weed5 {
+.pre-roll-grid5 {
     background-image: url(../images/purple-pineapple.jpg);
+    grid-column: 5/6;
+    grid-row: 1/3;
+    
 }
 
 .weed-details {
