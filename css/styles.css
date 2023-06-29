@@ -23,7 +23,7 @@ header.header img {
 }
 
 section.top-page {
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/src/background.jpg);
     background-size: cover;
     background-color: white;
     height: 94.7vh;
@@ -39,9 +39,20 @@ section.top-page {
 
 .big-title {
     color: white;
-    font-size: 80px;
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 60px;
+    font-family: 'Roboto Slab', serif;
     font-weight: 100;
+    margin-top: 0px;
+    
+}
+
+.plook {
+    color: white;
+    font-size: 100px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    margin-top: 300px;
+
 }
 
 .scroll-down {
@@ -71,6 +82,9 @@ nav.nav li {
 .lien {
     list-style: none;
     color: black;
+    width: 200px;
+    font-size: 30px;
+    font-weight: 900;
 }
 
 /* service */
@@ -110,13 +124,14 @@ nav.nav li {
     margin: 30px;
     font-weight: 900;
     text-align: center;
+    font-size: 20px;
 }
 
 /*  best sells */
 
 .section-title {
-    font-size: 50px;
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 80px;
+    font-family: 'Roboto Slab', serif;
     font-weight: 100;
     position: relative;
 }
@@ -154,19 +169,19 @@ nav.nav li {
 }
 
 .weed1 {
-    background-image: url(../images/runtz\ muffin.jpg);
+    background-image: url(../images/weed/runtz-muffin.jpg);
 }
 
 .weed2 {
-    background-image: url(../images/gouda\ berry.jpg);
+    background-image: url(../images/weed/gouda-berry.jpg);
 }
 
 .weed3 {
-    background-image: url(../images/haze\ berry.jpg);
+    background-image: url(../images/weed/haze-berry.jpg);
 }
 
 .weed4 {
-    background-image: url(../images/mac\ n\ cheese.jpg);
+    background-image: url(../images/weed/mac-n-cheese.jpg);
 }
 
 .weed-details {

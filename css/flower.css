@@ -23,7 +23,7 @@ header.header img {
 }
 
 section.top-page {
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/src/background.jpg);
     background-size: cover;
     background-color: white;
     height: 94.7vh;
@@ -39,7 +39,7 @@ section.top-page {
 .big-title {
     color: white;
     font-size: 80px;
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: 100;
 }
 
@@ -67,12 +67,19 @@ nav.nav li {
     list-style: none;
 }
 
+.lien {
+    list-style: none;
+    color: black;
+    width: 200px;
+    font-size: 30px;
+    font-weight: 900;
+}
 
 /*  best sells */
 
 .section-title {
-    font-size: 50px;
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 80px;
+    font-family: 'Roboto Slab', serif;
     font-weight: 100;
     position: relative;
 }
@@ -105,36 +112,36 @@ nav.nav li {
 }
 
 .plant-grid1 {
-    background-image: url(../images/runtz\ muffin.jpg);
+    background-image: url(../images/weed/runtz-muffin.jpg);
     
 }
 
 .plant-grid2 {
-    background-image: url(../images/gouda\ berry.jpg);
+    background-image: url(../images/weed/gouda-berry.jpg);
 }
 
 .plant-grid3 {
-    background-image: url(../images/haze\ berry.jpg);
+    background-image: url(../images/weed/haze-berry.jpg);
 }
 
 .plant-grid4 {
-    background-image: url(../images/mac\ n\ cheese.jpg);
+    background-image: url(../images/weed/mac-n-cheese.jpg);
 }
 
 .plant-grid5 {
-    background-image: url(../images/power-flower.jpg);
+    background-image: url(../images/weed/power-flower.jpg);
 }
 
 .plant-grid6 {
-    background-image: url(../images/royal-runtz.jpg);
+    background-image: url(../images/weed/royal-runtz.jpg);
 }
 
 .plant-grid7 {
-    background-image: url(../images/girl-scout-gelato.jpg);
+    background-image: url(../images/weed/girl-scout-gelato.jpg);
 }
 
 .plant-grid8 {
-    background-image: url(../images/nothern-light.jpg);
+    background-image: url(../images/weed/nothern-light.jpg);
 }
 
 .weed-details {

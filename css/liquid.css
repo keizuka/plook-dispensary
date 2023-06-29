@@ -23,7 +23,7 @@ header.header img {
 }
 
 section.top-page {
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/src/background.jpg);
     background-size: cover;
     background-color: white;
     height: 94.7vh;
@@ -39,7 +39,7 @@ section.top-page {
 .big-title {
     color: white;
     font-size: 80px;
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: 100;
 }
 
@@ -67,12 +67,19 @@ nav.nav li {
     list-style: none;
 }
 
+.lien {
+    list-style: none;
+    color: black;
+    width: 200px;
+    font-size: 30px;
+    font-weight: 900;
+}
 
 /*  best sells */
 
 .section-title {
-    font-size: 50px;
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 80px;
+    font-family: 'Roboto Slab', serif;
     font-weight: 100;
     position: relative;
 }
@@ -110,27 +117,27 @@ nav.nav li {
 }
 
 .weed1 {
-    background-image: url(../images/oil-natural.jpg);
+    background-image: url(../images/liquid/oil-natural.jpg);
 }
 
 .weed2 {
-    background-image: url(../images/oil-chamohoney.jpg);
+    background-image: url(../images/liquid/oil-chamohoney.jpg);
 }
 
 .weed3 {
-    background-image: url(../images/diip-caps.jpg);
+    background-image: url(../images/liquid/diip-caps.jpg);
 }
 
 .weed4 {
-    background-image: url(../images/oil-natural-small.jpg);
+    background-image: url(../images/liquid/oil-natural-small.jpg);
 }
 
 .weed5 {
-    background-image: url(../images/oil-chamohoney-small.jpg);
+    background-image: url(../images/liquid/oil-chamohoney-small.jpg);
 }
 
 .weed6 {
-    background-image: url(../images/oil-small.jpg);
+    background-image: url(../images/liquid/oil-small.jpg);
 }
 
 .weed-details {
